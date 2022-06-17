@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: 700px; */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    /* height: 385px; */
+    background: #ACC8E5;
+    color: #112A46;
+    margin: 50px auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+#home-score, #guest-score, #home-foul, #guest-foul {
+    width: 155px;
+    height: 120px;
+    background: whitesmoke;
+    border-radius: 8px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.points {
+    /* margin-top: 30px; */
+}
+
+button.home-score-btn-1 {
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    margin-bottom: 30px;
+}
+
+#home, #guest {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px; 
+    margin-bottom: 0; 
+}
+
+.foul {
+    margin: 50px 0 0 0;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 20px;
+    line-height: 18px;
+}
+
+ #new-game-button { 
+    margin: 300px 0;
+    background: #112A46;
+    color: aliceblue;
+    text-transform: uppercase;
+    /* font-family: 'Verdana'; */
+    /* font-weight: 700px; */
+    /* font-size: 20px; */
+    padding: 6px 12px;
+    border-radius: 5px;
+} */
+
+/* h2 {
+    justify-items: end;
+    text-align: center;
+} */
