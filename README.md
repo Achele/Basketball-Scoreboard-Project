@@ -1,7 +1,7 @@
-#Basketball Score Board Project.
-This project was built from scracth by me alone.<br><br>
+<h1>Basketball Score Board Project.</h1>
+<p>This project was built from scracth by me alone.<br><br>
 It shows a score board of both the home and guest team in a basketball game, number of fouls commited by both teams, and a new game button that resets everything back to zero for the commencement of a fresh game.<br><br>
-I used HTML, CSS and JAVASCRIPT to develop this page.
+I used HTML, CSS and JAVASCRIPT to develop this page.</p>
 <ul>
   <li>I implemented flex box </li>
   <li>I used function in all the buttons to add scores, fouls and restart game.</li>
