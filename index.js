@@ -64,11 +64,28 @@ function gameStart() {
     // document.getElementById("new-game-button").newGame = 0
 }
 
-// function scoreColor() {
-// if (homeScore < guestScore) {
-//     homeScoreEl.backGroundColor = "darksalmon";
-// } else {
-//     homeScoreEl.backGroundColor = "green";
-// }
-// }
-// scoreColor();
+// creating a function to highlight the score board color
+function scoreBoardColor()  {
+    if(homeScore > guestScore) {
+        homeScoreEl.classList.remove("losing", "draw")
+        guestScoreEl.classList.remove("winning", "draw")
+        homeScoreEl.classList.add("winning")
+        guestScoreEl.classList.add("losing")
+        
+    } else if(homeScore < guestScore) {
+        homeScoreEl.classList.remove("winning", "draw")
+        guestScoreEl.classList.remove("losing", "draw")
+        homeScoreEl.classList.add("losing")
+        guestScoreEl.classList.add("winning")
+        
+    } else if(homeScore = 0 & guestScore == 0) {
+        homeScoreEl.classList.remove("losing", "draw", "winning")
+        guestScoreEl.classList.remove("winning", "draw", "losing")
+        
+    } else {
+        homeScoreEl.classList.remove("losing", "winning")
+        guestScoreEl.classList.remove("winning", "losing")
+        homeScoreEl.classList.add("draw")
+        guestScoreEl.classList.add("draw")
+    }
+}
