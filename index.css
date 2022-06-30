@@ -66,12 +66,9 @@ button.home-score-btn-1 {
     background: #112A46;
     color: aliceblue;
     text-transform: uppercase;
-    /* font-family: 'Verdana'; */
-    /* font-weight: 700px; */
-    /* font-size: 20px; */
     padding: 6px 12px;
     border-radius: 5px;
-} */
+} 
 
 .winning {
     background: greenyellow;
@@ -87,3 +84,8 @@ button.home-score-btn-1 {
     background: #333;
     color: darksalmon;
 }
+
+/* h2 {
+    justify-items: end;
+    text-align: center;
+} */
