@@ -17,7 +17,7 @@ body {
     border-radius: 8px;
 }
 
-#home-score, #guest-score, #home-foul, #guest-foul {
+.score {
     width: 155px;
     height: 120px;
     background: whitesmoke;
@@ -73,7 +73,17 @@ button.home-score-btn-1 {
     border-radius: 5px;
 } */
 
-/* h2 {
-    justify-items: end;
-    text-align: center;
-} */
+.winning {
+    background: greenyellow;
+    color: white;
+}
+
+.losing {
+    background: red;
+    color: white;
+}
+
+.draw {
+    background: #333;
+    color: darksalmon;
+}
